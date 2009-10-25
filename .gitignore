@@ -1,3 +1,4 @@
 *~
 *.sw[o|p]
 *.log
+config/database.yml
