@@ -3826,3 +3826,1785 @@ Completed in 47ms (View: 43, DB: 0) | 200 OK [http://localhost/test]
 Processing TestController#test (for 127.0.0.1 at 2009-10-25 17:53:06) [GET]
 Rendering test/test
 Completed in 28ms (View: 23, DB: 0) | 200 OK [http://localhost/test]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#1250 (for 127.0.0.1 at 2009-10-25 19:09:07) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1250. Actions: ):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#1250 (for 127.0.0.1 at 2009-10-25 19:09:23) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1250. Actions: ):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#edit (for 127.0.0.1 at 2009-10-25 19:11:56) [GET]
+  Parameters: {"id"=>"1250"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: ):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#edit (for 127.0.0.1 at 2009-10-25 19:13:06) [GET]
+  Parameters: {"id"=>"1250"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: show):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#edit (for 127.0.0.1 at 2009-10-25 19:13:45) [GET]
+  Parameters: {"id"=>"1250"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: show):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#edit (for 127.0.0.1 at 2009-10-25 19:13:52) [GET]
+  Parameters: {"id"=>"1250"}
+
+ActionController::UnknownAction (No action responded to edit. Actions: show):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#1250 (for 127.0.0.1 at 2009-10-25 19:14:09) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to 1250. Actions: show):
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:14:31) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;35;1mMovie Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+
+ActionView::TemplateError (undefined local variable or method `movie' for #<ActionView::Base:0xb71b80d4>) on line #1 of app/views/movies/show.html.haml:
+1: = movie.name
+
+    app/views/movies/show.html.haml:1:in `_run_haml_app47views47movies47show46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (68.7ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:14:44) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;36;1mMovie Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+Completed in 36ms (View: 21, DB: 2) | 200 OK [http://localhost/movies/show/1250]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:16:13) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;35;1mMovie Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.2ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+
+ActionView::TemplateError (undefined local variable or method `trailers' for #<ActionView::Base:0xb72dfbd8>) on line #2 of app/views/movies/show.html.haml:
+1: %h3== #{@movie.name} (#{@movie.year})
+2: = render trailers
+
+    app/views/movies/show.html.haml:2:in `_run_haml_app47views47movies47show46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (65.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:17:57) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;36;1mMovie Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+
+ActionView::TemplateError (undefined local variable or method `trailers' for #<ActionView::Base:0xb718a454>) on line #2 of app/views/movies/show.html.haml:
+1: %h3== #{@movie.name} (#{@movie.year})
+2: = render :partial => trailers
+
+    app/views/movies/show.html.haml:2:in `_run_haml_app47views47movies47show46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (143.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:29:33) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;35;1mMovie Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+Completed in 29ms (View: 14, DB: 2) | 200 OK [http://localhost/movies/show/1250]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:31:23) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;36;1mMovie Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+Rendered movies/_trailers (9.2ms)
+Completed in 47ms (View: 32, DB: 2) | 200 OK [http://localhost/movies/show/1250]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:31:59) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;35;1mMovie Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+Rendering movies/show
+Rendered movies/_trailers (6.3ms)
+Completed in 26ms (View: 15, DB: 2) | 200 OK [http://localhost/movies/show/1250]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mMovie Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM `movies` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Shawshank Redemption', 9.1, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 111161, 1994, NULL)[0m
+  [4;35;1mSQL (3.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Godfather', 9.1, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 68646, 1972, NULL)[0m
+  [4;36;1mSQL (25.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Godfather: Part II', 9.0, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 71562, 1974, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Il buono, il brutto, il cattivo.', 8.9, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 60196, 1966, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Pulp Fiction', 8.9, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 110912, 1994, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.9ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Schindler\'s List', 8.9, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 108052, 1993, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('12 Angry Men', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 50083, 1957, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('One Flew Over the Cuckoo\'s Nest', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 73486, 1975, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.8ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Dark Knight', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 468569, 2008, NULL)[0m
+  [4;35;1mSQL (11.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Wars: Episode V - The Empire Strikes Back', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 80684, 1980, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Casablanca', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 34583, 1942, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Shichinin no samurai', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 47478, 1954, NULL)[0m
+  [4;36;1mSQL (4.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Wars', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 76759, 1977, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lord of the Rings: The Return of the King', 8.8, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 167260, 2003, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Goodfellas', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 99685, 1990, NULL)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Cidade de Deus', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 317248, 2002, NULL)[0m
+  [4;36;1mSQL (4.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rear Window', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 47396, 1954, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Raiders of the Lost Ark', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 82971, 1981, NULL)[0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Fight Club', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 137523, 1999, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lord of the Rings: The Fellowship of the Ring', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 120737, 2001, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('C\'era una volta il West', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 64116, 1968, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Usual Suspects', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 114814, 1995, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Psycho', 8.7, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 54215, 1960, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Silence of the Lambs', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 102926, 1991, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sunset Blvd.', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 43014, 1950, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Matrix', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 133093, 1999, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Memento', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 209144, 2000, NULL)[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('It\'s a Wonderful Life', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 38650, 1946, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 57012, 1964, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Se7en', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 114369, 1995, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('North by Northwest', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 53125, 1959, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Citizen Kane', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 33467, 1941, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lord of the Rings: The Two Towers', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 167261, 2002, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Léon', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 110413, 1994, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Apocalypse Now', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 78788, 1979, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('American Beauty', 8.6, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 169547, 1999, NULL)[0m
+  [4;36;1mSQL (5.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('American History X', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 120586, 1998, NULL)[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Taxi Driver', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 75314, 1976, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Forrest Gump', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 109830, 1994, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Vertigo', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 52357, 1958, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Lawrence of Arabia', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 56172, 1962, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Up', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 1049413, 2009, NULL)[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('WALL·E', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 910970, 2008, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Paths of Glory', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 50825, 1957, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Inglourious Basterds', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 361748, 2009, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le fabuleux destin d\'Amélie Poulain', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 211915, 2001, NULL)[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Alien', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 78748, 1979, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Double Indemnity', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 36775, 1944, NULL)[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('M', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 22100, 1931, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Terminator 2: Judgment Day', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 103064, 1991, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Saving Private Ryan', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 120815, 1998, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('To Kill a Mockingbird', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 56592, 1962, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('A Clockwork Orange', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 66921, 1971, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Shining', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 81505, 1980, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Treasure of the Sierra Madre', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 40897, 1948, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Third Man', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 41959, 1949, NULL)[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Departed', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 407887, 2006, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Das Leben der Anderen', 8.5, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 405094, 2006, NULL)[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('City Lights', 8.4, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 21749, 1931, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Pianist', 8.4, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 253474, 2002, NULL)[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Chinatown', 8.4, NULL, '2009-10-25 17:33:09', '2009-10-25 17:33:09', 71315, 1974, NULL)[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sen to Chihiro no kamikakushi', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 245429, 2001, NULL)[0m
+  [4;36;1mSQL (6.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Aliens', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 90605, 1986, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Eternal Sunshine of the Spotless Mind', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 338013, 2004, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Das Boot', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 82096, 1981, NULL)[0m
+  [4;35;1mSQL (30.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Requiem for a Dream', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 180093, 2000, NULL)[0m
+  [4;36;1mSQL (6.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('L.A. Confidential', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 119488, 1997, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Reservoir Dogs', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 105236, 1992, NULL)[0m
+  [4;36;1mSQL (3.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Bridge on the River Kwai', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 50212, 1957, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Monty Python and the Holy Grail', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 71853, 1975, NULL)[0m
+  [4;36;1mSQL (3.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('El laberinto del fauno', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 457430, 2006, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Raging Bull', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 81398, 1980, NULL)[0m
+  [4;36;1mSQL (3.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Modern Times', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 27977, 1936, NULL)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('All About Eve', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 42192, 1950, NULL)[0m
+  [4;36;1mSQL (3.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Singin\' in the Rain', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 45152, 1952, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rashômon', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 42876, 1950, NULL)[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Maltese Falcon', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 33870, 1941, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Slumdog Millionaire', 8.4, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 1010048, 2008, NULL)[0m
+  [4;36;1mSQL (3.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Some Like It Hot', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 53291, 1959, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rebecca', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 32976, 1940, NULL)[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Nuovo cinema Paradiso', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 95765, 1988, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('District 9', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 1136608, 2009, NULL)[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Prestige', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 482571, 2006, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.8ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Der Untergang', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 363163, 2004, NULL)[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Metropolis', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 17136, 1927, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gran Torino', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 1205489, 2008, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('La vita è bella', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 118799, 1997, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('2001: A Space Odyssey', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 62622, 1968, NULL)[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Amadeus', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 86879, 1984, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Great Dictator', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 32553, 1940, NULL)[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Apartment', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 53604, 1960, NULL)[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Once Upon a Time in America', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 87843, 1984, NULL)[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ladri di biciclette', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 40522, 1948, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Elephant Man', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 80678, 1980, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Back to the Future', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 88763, 1985, NULL)[0m
+  [4;35;1mSQL (4.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Full Metal Jacket', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 93058, 1987, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Mr. Smith Goes to Washington', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 31679, 1939, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Braveheart', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 112573, 1995, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Sting', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 70735, 1973, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Great Escape', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 57115, 1963, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sin City', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 401792, 2005, NULL)[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Touch of Evil', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 52311, 1958, NULL)[0m
+  [4;36;1mSQL (6.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('On the Waterfront', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 47296, 1954, NULL)[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Det sjunde inseglet', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 50976, 1957, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Green Mile', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 120689, 1999, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Indiana Jones and the Last Crusade', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 97576, 1989, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Jaws', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 73195, 1975, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Hotel Rwanda', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 395169, 2004, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Batman Begins', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 372784, 2005, NULL)[0m
+  [4;35;1mSQL (6.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Unforgiven', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 105695, 1992, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Wars: Episode VI - Return of the Jedi', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 86190, 1983, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gladiator', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 172495, 2000, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Blade Runner', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 83658, 1982, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('No Country for Old Men', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 477348, 2007, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Strangers on a Train', 8.3, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 44079, 1951, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Oldboy', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 364569, 2003, NULL)[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Die Hard', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 95016, 1988, NULL)[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('High Noon', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 44706, 1952, NULL)[0m
+  [4;36;1mSQL (3.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Per qualche dollaro in più', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 59578, 1965, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Notorious', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 38787, 1946, NULL)[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The General', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 17925, 1926, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Manchurian Candidate', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 56218, 1962, NULL)[0m
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Fargo', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 116282, 1996, NULL)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.7ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Mononoke-hime', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 119698, 1997, NULL)[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Wrestler', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 1125849, 2008, NULL)[0m
+  [4;35;1mSQL (3.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Cool Hand Luke', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 61512, 1967, NULL)[0m
+  [4;36;1mSQL (6.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Wizard of Oz', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 32138, 1939, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Big Sleep', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 38355, 1946, NULL)[0m
+  [4;36;1mSQL (3.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Witness for the Prosecution', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 51201, 1957, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('It Happened One Night', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 25316, 1934, NULL)[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Heat', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 113277, 1995, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Smultronstället', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 50986, 1957, NULL)[0m
+  [4;36;1mSQL (3.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Yojimbo', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 55630, 1961, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Donnie Darko', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 246578, 2001, NULL)[0m
+  [4;36;1mSQL (4.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('There Will Be Blood', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 469494, 2007, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Trek', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 796366, 2009, NULL)[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Annie Hall', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 75686, 1977, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ran', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 89881, 1985, NULL)[0m
+  [4;36;1mSQL (4.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Deer Hunter', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 77416, 1978, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ben-Hur', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 52618, 1959, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Les diaboliques', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 46911, 1955, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Sixth Sense', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 167404, 1999, NULL)[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Kind Hearts and Coronets', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 41546, 1949, NULL)[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Platoon', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 91763, 1986, NULL)[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Kill Bill: Vol. 1', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 266697, 2003, NULL)[0m
+  [4;35;1mSQL (5.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le salaire de la peur', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 46268, 1953, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le notti di Cabiria', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 50783, 1957, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Into the Wild', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 758758, 2007, NULL)[0m
+  [4;36;1mSQL (2.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Million Dollar Baby', 8.2, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 405159, 2004, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Gold Rush', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 15864, 1925, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Butch Cassidy and the Sundance Kid', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 64115, 1969, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Judgment at Nuremberg', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 55031, 1961, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Snatch.', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 208092, 2000, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Bourne Ultimatum', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 440963, 2007, NULL)[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Grapes of Wrath', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 32551, 1940, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Big Lebowski', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 118715, 1998, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('8½', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 56801, 1963, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sunrise: A Song of Two Humans', 8.1, NULL, '2009-10-25 17:33:10', '2009-10-25 17:33:10', 18455, 1927, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Life of Brian', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 79470, 1979, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Night of the Hunter', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 48424, 1955, NULL)[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Graduate', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 61722, 1967, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Finding Nemo', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 266543, 2003, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Stand by Me', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 92005, 1986, NULL)[0m
+  [4;35;1mSQL (5.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lion King', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 110357, 1994, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gone with the Wind', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 31381, 1939, NULL)[0m
+  [4;35;1mSQL (4.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Amores perros', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 245712, 2000, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gandhi', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 83987, 1982, NULL)[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Trainspotting', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 117951, 1996, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ratatouille', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 382932, 2007, NULL)[0m
+  [4;35;1mSQL (3.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Brief Encounter', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 37558, 1945, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.7ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Kid', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 12349, 1921, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Dog Day Afternoon', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 72890, 1975, NULL)[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Toy Story', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 114709, 1995, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Killing', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 49406, 1956, NULL)[0m
+  [4;36;1mSQL (4.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Groundhog Day', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 107048, 1993, NULL)[0m
+  [4;35;1mSQL (4.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Best Years of Our Lives', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 36868, 1946, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Thing', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 84787, 1982, NULL)[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (1.7ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Scarface', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 86250, 1983, NULL)[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Terminator', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 88247, 1984, NULL)[0m
+  [4;35;1mSQL (2.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Zombieland', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 1156398, 2009, NULL)[0m
+  [4;36;1mSQL (4.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Wild Bunch', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 65214, 1969, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('V for Vendetta', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 434409, 2005, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sherlock Jr.', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 15324, 1924, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Hustler', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 54997, 1961, NULL)[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Harvey', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 42546, 1950, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Princess Bride', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 93779, 1987, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sleuth', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 69281, 1972, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Twelve Monkeys', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 114746, 1995, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Lock, Stock and Two Smoking Barrels', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 120735, 1998, NULL)[0m
+  [4;35;1mSQL (5.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Shadow of a Doubt', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 36342, 1943, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Incredibles', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 317705, 2004, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Hotaru no haka', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 95327, 1988, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.8ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Stalag 17', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 46359, 1953, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Casino', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 112641, 1995, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('La strada', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 47528, 1954, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('La battaglia di Algeri', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 58946, 1966, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Children of Men', 8.1, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 206634, 2006, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Umberto D.', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 45274, 1952, NULL)[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Duck Soup', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 23969, 1933, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('(500) Days of Summer', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 1022603, 2009, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.7ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('In Bruges', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 780536, 2008, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('King Kong', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 24216, 1933, NULL)[0m
+  [4;36;1mSQL (4.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Dial M for Murder', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 46912, 1954, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The African Queen', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 43265, 1951, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lady Vanishes', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 30341, 1938, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Adventures of Robin Hood', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 29843, 1938, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('A Streetcar Named Desire', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 44081, 1951, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Exorcist', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 70047, 1973, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Anatomy of a Murder', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 52561, 1959, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lost Weekend', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 37884, 1945, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Letters from Iwo Jima', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 498380, 2006, NULL)[0m
+  [4;35;1mSQL (6.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rosemary\'s Baby', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 63522, 1968, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rope', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 40746, 1948, NULL)[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Who\'s Afraid of Virginia Woolf?', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 61184, 1966, NULL)[0m
+  [4;36;1mSQL (4.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le scaphandre et le papillon', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 401383, 2007, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('His Girl Friday', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 32599, 1940, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Låt den rätte komma in', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 1139797, 2008, NULL)[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Curious Case of Benjamin Button', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 421715, 2008, NULL)[0m
+  [4;36;1mSQL (6.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ed Wood', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 109707, 1994, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Safety Last!', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 14429, 1923, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Manhattan', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 79522, 1979, NULL)[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (1.0ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('All Quiet on the Western Front', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 20629, 1930, NULL)[0m
+  [4;36;1mSQL (16.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Bonnie and Clyde', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 61418, 1967, NULL)[0m
+  [4;35;1mSQL (5.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Conversation', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 71360, 1974, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Philadelphia Story', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 32904, 1940, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Network', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 74958, 1976, NULL)[0m
+  [4;36;1mSQL (3.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Frankenstein', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 21884, 1931, NULL)[0m
+  [4;35;1mSQL (3.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Patton', 8.0, NULL, '2009-10-25 17:33:11', '2009-10-25 17:33:11', 66206, 1970, NULL)[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mMovie Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `movies` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Shawshank Redemption', 9.1, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 111161, 1994, NULL)[0m
+  [4;35;1mSQL (3.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Godfather', 9.1, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 68646, 1972, NULL)[0m
+  [4;36;1mSQL (29.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Godfather: Part II', 9.0, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 71562, 1974, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Il buono, il brutto, il cattivo.', 8.9, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 60196, 1966, NULL)[0m
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Pulp Fiction', 8.9, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 110912, 1994, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Schindler\'s List', 8.9, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 108052, 1993, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('12 Angry Men', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 50083, 1957, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('One Flew Over the Cuckoo\'s Nest', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 73486, 1975, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Dark Knight', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 468569, 2008, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Wars: Episode V - The Empire Strikes Back', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 80684, 1980, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Casablanca', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 34583, 1942, NULL)[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Shichinin no samurai', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 47478, 1954, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Wars', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 76759, 1977, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lord of the Rings: The Return of the King', 8.8, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 167260, 2003, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.7ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Goodfellas', 8.7, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 99685, 1990, NULL)[0m
+  [4;35;1mSQL (11.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Cidade de Deus', 8.7, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 317248, 2002, NULL)[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rear Window', 8.7, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 47396, 1954, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Raiders of the Lost Ark', 8.7, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 82971, 1981, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Fight Club', 8.7, NULL, '2009-10-25 17:37:40', '2009-10-25 17:37:40', 137523, 1999, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lord of the Rings: The Fellowship of the Ring', 8.7, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 120737, 2001, NULL)[0m
+  [4;36;1mSQL (6.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('C\'era una volta il West', 8.7, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 64116, 1968, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Usual Suspects', 8.7, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 114814, 1995, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Psycho', 8.7, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 54215, 1960, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Silence of the Lambs', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 102926, 1991, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sunset Blvd.', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 43014, 1950, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Matrix', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 133093, 1999, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Memento', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 209144, 2000, NULL)[0m
+  [4;35;1mSQL (19.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('It\'s a Wonderful Life', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 38650, 1946, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 57012, 1964, NULL)[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (5.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Se7en', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 114369, 1995, NULL)[0m
+  [4;36;1mSQL (8.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (9.9ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('North by Northwest', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 53125, 1959, NULL)[0m
+  [4;35;1mSQL (8.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Citizen Kane', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 33467, 1941, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lord of the Rings: The Two Towers', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 167261, 2002, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Léon', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 110413, 1994, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Apocalypse Now', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 78788, 1979, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('American Beauty', 8.6, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 169547, 1999, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('American History X', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 120586, 1998, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Taxi Driver', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 75314, 1976, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Forrest Gump', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 109830, 1994, NULL)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Vertigo', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 52357, 1958, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Lawrence of Arabia', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 56172, 1962, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Up', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 1049413, 2009, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('WALL·E', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 910970, 2008, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Paths of Glory', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 50825, 1957, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Inglourious Basterds', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 361748, 2009, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le fabuleux destin d\'Amélie Poulain', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 211915, 2001, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Alien', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 78748, 1979, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Double Indemnity', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 36775, 1944, NULL)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('M', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 22100, 1931, NULL)[0m
+  [4;35;1mSQL (10.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Terminator 2: Judgment Day', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 103064, 1991, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Saving Private Ryan', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 120815, 1998, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.8ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('To Kill a Mockingbird', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 56592, 1962, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('A Clockwork Orange', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 66921, 1971, NULL)[0m
+  [4;35;1mSQL (33.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Shining', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 81505, 1980, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Treasure of the Sierra Madre', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 40897, 1948, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Third Man', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 41959, 1949, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Departed', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 407887, 2006, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Das Leben der Anderen', 8.5, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 405094, 2006, NULL)[0m
+  [4;36;1mSQL (5.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('City Lights', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 21749, 1931, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Pianist', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 253474, 2002, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Chinatown', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 71315, 1974, NULL)[0m
+  [4;35;1mSQL (4.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sen to Chihiro no kamikakushi', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 245429, 2001, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Aliens', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 90605, 1986, NULL)[0m
+  [4;35;1mSQL (4.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Eternal Sunshine of the Spotless Mind', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 338013, 2004, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Das Boot', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 82096, 1981, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Requiem for a Dream', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 180093, 2000, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('L.A. Confidential', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 119488, 1997, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Reservoir Dogs', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 105236, 1992, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Bridge on the River Kwai', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 50212, 1957, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Monty Python and the Holy Grail', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 71853, 1975, NULL)[0m
+  [4;36;1mSQL (2.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('El laberinto del fauno', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 457430, 2006, NULL)[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Raging Bull', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 81398, 1980, NULL)[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Modern Times', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 27977, 1936, NULL)[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('All About Eve', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 42192, 1950, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Singin\' in the Rain', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 45152, 1952, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rashômon', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 42876, 1950, NULL)[0m
+  [4;36;1mSQL (5.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Maltese Falcon', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 33870, 1941, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Slumdog Millionaire', 8.4, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 1010048, 2008, NULL)[0m
+  [4;36;1mSQL (6.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Some Like It Hot', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 53291, 1959, NULL)[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rebecca', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 32976, 1940, NULL)[0m
+  [4;36;1mSQL (4.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Nuovo cinema Paradiso', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 95765, 1988, NULL)[0m
+  [4;35;1mSQL (4.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('District 9', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 1136608, 2009, NULL)[0m
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Prestige', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 482571, 2006, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Der Untergang', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 363163, 2004, NULL)[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Metropolis', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 17136, 1927, NULL)[0m
+  [4;35;1mSQL (4.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gran Torino', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 1205489, 2008, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.8ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('La vita è bella', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 118799, 1997, NULL)[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('2001: A Space Odyssey', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 62622, 1968, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Amadeus', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 86879, 1984, NULL)[0m
+  [4;35;1mSQL (7.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Great Dictator', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 32553, 1940, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Apartment', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 53604, 1960, NULL)[0m
+  [4;35;1mSQL (4.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Once Upon a Time in America', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 87843, 1984, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ladri di biciclette', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 40522, 1948, NULL)[0m
+  [4;35;1mSQL (4.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Elephant Man', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 80678, 1980, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Back to the Future', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 88763, 1985, NULL)[0m
+  [4;35;1mSQL (4.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Full Metal Jacket', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 93058, 1987, NULL)[0m
+  [4;36;1mSQL (6.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Mr. Smith Goes to Washington', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 31679, 1939, NULL)[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Braveheart', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 112573, 1995, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Sting', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 70735, 1973, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Great Escape', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 57115, 1963, NULL)[0m
+  [4;36;1mSQL (5.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sin City', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 401792, 2005, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Touch of Evil', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 52311, 1958, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('On the Waterfront', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 47296, 1954, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Det sjunde inseglet', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 50976, 1957, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Green Mile', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 120689, 1999, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Indiana Jones and the Last Crusade', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 97576, 1989, NULL)[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.9ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Jaws', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 73195, 1975, NULL)[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Hotel Rwanda', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 395169, 2004, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Batman Begins', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 372784, 2005, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Unforgiven', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 105695, 1992, NULL)[0m
+  [4;36;1mSQL (7.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Wars: Episode VI - Return of the Jedi', 8.3, NULL, '2009-10-25 17:37:41', '2009-10-25 17:37:41', 86190, 1983, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gladiator', 8.3, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 172495, 2000, NULL)[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Blade Runner', 8.3, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 83658, 1982, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('No Country for Old Men', 8.3, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 477348, 2007, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Strangers on a Train', 8.3, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 44079, 1951, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Oldboy', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 364569, 2003, NULL)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Die Hard', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 95016, 1988, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('High Noon', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 44706, 1952, NULL)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Per qualche dollaro in più', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 59578, 1965, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Notorious', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 38787, 1946, NULL)[0m
+  [4;36;1mSQL (23.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The General', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 17925, 1926, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Manchurian Candidate', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 56218, 1962, NULL)[0m
+  [4;36;1mSQL (6.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Fargo', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 116282, 1996, NULL)[0m
+  [4;35;1mSQL (5.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Mononoke-hime', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 119698, 1997, NULL)[0m
+  [4;36;1mSQL (6.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Wrestler', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 1125849, 2008, NULL)[0m
+  [4;35;1mSQL (5.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Cool Hand Luke', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 61512, 1967, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Wizard of Oz', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 32138, 1939, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Big Sleep', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 38355, 1946, NULL)[0m
+  [4;36;1mSQL (3.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Witness for the Prosecution', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 51201, 1957, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('It Happened One Night', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 25316, 1934, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Heat', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 113277, 1995, NULL)[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Smultronstället', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 50986, 1957, NULL)[0m
+  [4;36;1mSQL (4.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Yojimbo', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 55630, 1961, NULL)[0m
+  [4;35;1mSQL (6.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Donnie Darko', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 246578, 2001, NULL)[0m
+  [4;36;1mSQL (4.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('There Will Be Blood', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 469494, 2007, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Star Trek', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 796366, 2009, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Annie Hall', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 75686, 1977, NULL)[0m
+  [4;35;1mSQL (6.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ran', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 89881, 1985, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (1.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Deer Hunter', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 77416, 1978, NULL)[0m
+  [4;35;1mSQL (3.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ben-Hur', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 52618, 1959, NULL)[0m
+  [4;36;1mSQL (4.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Les diaboliques', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 46911, 1955, NULL)[0m
+  [4;35;1mSQL (3.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Sixth Sense', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 167404, 1999, NULL)[0m
+  [4;36;1mSQL (6.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Kind Hearts and Coronets', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 41546, 1949, NULL)[0m
+  [4;35;1mSQL (3.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Platoon', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 91763, 1986, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.6ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Kill Bill: Vol. 1', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 266697, 2003, NULL)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le salaire de la peur', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 46268, 1953, NULL)[0m
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le notti di Cabiria', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 50783, 1957, NULL)[0m
+  [4;35;1mSQL (3.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Into the Wild', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 758758, 2007, NULL)[0m
+  [4;36;1mSQL (7.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Million Dollar Baby', 8.2, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 405159, 2004, NULL)[0m
+  [4;35;1mSQL (7.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.4ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Gold Rush', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 15864, 1925, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Butch Cassidy and the Sundance Kid', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 64115, 1969, NULL)[0m
+  [4;35;1mSQL (3.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Judgment at Nuremberg', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 55031, 1961, NULL)[0m
+  [4;36;1mSQL (7.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Snatch.', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 208092, 2000, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Bourne Ultimatum', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 440963, 2007, NULL)[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Grapes of Wrath', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 32551, 1940, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Big Lebowski', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 118715, 1998, NULL)[0m
+  [4;36;1mSQL (4.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('8½', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 56801, 1963, NULL)[0m
+  [4;35;1mSQL (7.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sunrise: A Song of Two Humans', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 18455, 1927, NULL)[0m
+  [4;36;1mSQL (7.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Life of Brian', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 79470, 1979, NULL)[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Night of the Hunter', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 48424, 1955, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Graduate', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 61722, 1967, NULL)[0m
+  [4;35;1mSQL (4.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Finding Nemo', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 266543, 2003, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Stand by Me', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 92005, 1986, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lion King', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 110357, 1994, NULL)[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gone with the Wind', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 31381, 1939, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Amores perros', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 245712, 2000, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Gandhi', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 83987, 1982, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Trainspotting', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 117951, 1996, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ratatouille', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 382932, 2007, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Brief Encounter', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 37558, 1945, NULL)[0m
+  [4;36;1mSQL (5.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Kid', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 12349, 1921, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Dog Day Afternoon', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 72890, 1975, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.7ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Toy Story', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 114709, 1995, NULL)[0m
+  [4;35;1mSQL (5.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Killing', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 49406, 1956, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Groundhog Day', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 107048, 1993, NULL)[0m
+  [4;35;1mSQL (5.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Best Years of Our Lives', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 36868, 1946, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Thing', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 84787, 1982, NULL)[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Scarface', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 86250, 1983, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.7ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Terminator', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 88247, 1984, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Zombieland', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 1156398, 2009, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Wild Bunch', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 65214, 1969, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('V for Vendetta', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 434409, 2005, NULL)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sherlock Jr.', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 15324, 1924, NULL)[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.8ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Hustler', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 54997, 1961, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Harvey', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 42546, 1950, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Princess Bride', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 93779, 1987, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sleuth', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 69281, 1972, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Twelve Monkeys', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 114746, 1995, NULL)[0m
+  [4;36;1mSQL (3.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Lock, Stock and Two Smoking Barrels', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 120735, 1998, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Shadow of a Doubt', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 36342, 1943, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Incredibles', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 317705, 2004, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Hotaru no haka', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 95327, 1988, NULL)[0m
+  [4;36;1mSQL (6.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.4ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Stalag 17', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 46359, 1953, NULL)[0m
+  [4;35;1mSQL (7.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Casino', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 112641, 1995, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('La strada', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 47528, 1954, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('La battaglia di Algeri', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 58946, 1966, NULL)[0m
+  [4;36;1mSQL (4.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Children of Men', 8.1, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 206634, 2006, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Umberto D.', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 45274, 1952, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Duck Soup', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 23969, 1933, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('(500) Days of Summer', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 1022603, 500, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('In Bruges', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 780536, 2008, NULL)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('King Kong', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 24216, 1933, NULL)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Dial M for Murder', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 46912, 1954, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The African Queen', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 43265, 1951, NULL)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lady Vanishes', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 30341, 1938, NULL)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Adventures of Robin Hood', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 29843, 1938, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('A Streetcar Named Desire', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 44081, 1951, NULL)[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Exorcist', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 70047, 1973, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Anatomy of a Murder', 8.0, NULL, '2009-10-25 17:37:42', '2009-10-25 17:37:42', 52561, 1959, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.5ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Lost Weekend', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 37884, 1945, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Letters from Iwo Jima', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 498380, 2006, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rosemary\'s Baby', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 63522, 1968, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rope', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 40746, 1948, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Who\'s Afraid of Virginia Woolf?', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 61184, 1966, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Le scaphandre et le papillon', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 401383, 2007, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('His Girl Friday', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 32599, 1940, NULL)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Låt den rätte komma in', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 1139797, 2008, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Curious Case of Benjamin Button', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 421715, 2008, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Ed Wood', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 109707, 1994, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Safety Last!', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 14429, 1923, NULL)[0m
+  [4;36;1mSQL (20.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Manhattan', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 79522, 1979, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.6ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('All Quiet on the Western Front', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 20629, 1930, NULL)[0m
+  [4;36;1mSQL (4.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Bonnie and Clyde', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 61418, 1967, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Conversation', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 71360, 1974, NULL)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Philadelphia Story', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 32904, 1940, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Network', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 74958, 1976, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Frankenstein', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 21884, 1931, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.2ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Patton', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 66206, 1970, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Crash', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 375679, 2004, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Good Will Hunting', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 119217, 1997, NULL)[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.2ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Big Fish', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 319061, 2003, NULL)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Ox-Bow Incident', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 36244, 1943, NULL)[0m
+  [4;36;1mSQL (24.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Kill Bill: Vol. 2', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 378194, 2004, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Changeling', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 824747, 2008, NULL)[0m
+  [4;36;1mSQL (6.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Magnolia', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 175880, 1999, NULL)[0m
+  [4;35;1mSQL (6.2ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Rocky', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 75148, 1976, NULL)[0m
+  [4;36;1mSQL (5.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Great Expectations', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 38574, 1946, NULL)[0m
+  [4;35;1mSQL (6.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Arsenic and Old Lace', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 36613, 1944, NULL)[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Laura', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 37008, 1944, NULL)[0m
+  [4;35;1mSQL (6.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Mystic River', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 327056, 2003, NULL)[0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Harold and Maude', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 67185, 1971, NULL)[0m
+  [4;35;1mSQL (6.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Nosferatu, eine Symphonie des Grauens', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 13442, 1922, NULL)[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.5ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Bringing Up Baby', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 29947, 1938, NULL)[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('The Day the Earth Stood Still', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 43456, 1951, NULL)[0m
+  [4;36;1mSQL (6.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Les quatre cents coups', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 53198, 1959, NULL)[0m
+  [4;35;1mSQL (6.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Tonari no Totoro', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 96283, 1988, NULL)[0m
+  [4;36;1mSQL (6.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (1.0ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Wo hu cang long', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 190332, 2000, NULL)[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Mou gaan dou', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 338564, 2002, NULL)[0m
+  [4;36;1mSQL (5.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMovie Create (0.3ms)[0m   [0;1mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Sweet Smell of Success', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 51036, 1957, NULL)[0m
+  [4;35;1mSQL (6.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Create (0.3ms)[0m   [0mINSERT INTO `movies` (`name`, `imdb_score`, `rt_score`, `created_at`, `updated_at`, `imdb_id`, `year`, `mc_score`) VALUES('Planet of the Apes', 8.0, NULL, '2009-10-25 17:37:43', '2009-10-25 17:37:43', 63442, 1968, NULL)[0m
+  [4;36;1mSQL (5.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:37:59) [GET]
+  Parameters: {"id"=>"1250"}
+  [4;36;1mMovie Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1250) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Movie with ID=1250):
+  app/controllers/movies_controller.rb:4:in `show'
+  haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (58.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:38:36) [GET]
+  Parameters: {"id"=>"1592"}
+  [4;35;1mMovie Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.4ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1592) [0m
+Rendering movies/show
+Rendered movies/_trailers (0.3ms)
+Completed in 14ms (View: 4, DB: 2) | 200 OK [http://localhost/movies/show/1592]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:47:14) [GET]
+  Parameters: {"id"=>"1592"}
+  [4;36;1mMovie Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1592) [0m
+Rendering movies/show
+Rendered movies/_trailers (2.3ms)
+Completed in 132ms (View: 118, DB: 1) | 200 OK [http://localhost/movies/show/1592]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:48:21) [GET]
+  Parameters: {"id"=>"1592"}
+  [4;35;1mMovie Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1592) [0m
+Rendering movies/show
+Rendered movies/_trailers (5.9ms)
+Completed in 34ms (View: 20, DB: 2) | 200 OK [http://localhost/movies/show/1592]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:48:43) [GET]
+  Parameters: {"id"=>"1592"}
+  [4;36;1mMovie Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1592) [0m
+Rendering movies/show
+Rendered movies/_trailers (3.2ms)
+Completed in 31ms (View: 16, DB: 2) | 200 OK [http://localhost/movies/show/1592]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:49:06) [GET]
+  Parameters: {"id"=>"1592"}
+  [4;35;1mMovie Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1592) [0m
+Rendering movies/show
+Rendered movies/_trailers (0.3ms)
+Completed in 34ms (View: 20, DB: 2) | 200 OK [http://localhost/movies/show/1592]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:49:13) [GET]
+  Parameters: {"id"=>"1593"}
+  [4;36;1mMovie Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1593) [0m
+Rendering movies/show
+Rendered movies/_trailers (0.2ms)
+Completed in 15ms (View: 4, DB: 2) | 200 OK [http://localhost/movies/show/1593]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:49:18) [GET]
+  Parameters: {"id"=>"1594"}
+  [4;35;1mMovie Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.5ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1594) [0m
+Rendering movies/show
+Rendered movies/_trailers (0.9ms)
+Completed in 15ms (View: 5, DB: 2) | 200 OK [http://localhost/movies/show/1594]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:49:25) [GET]
+  Parameters: {"id"=>"1595"}
+  [4;36;1mMovie Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.3ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1595) [0m
+Rendering movies/show
+Rendered movies/_trailers (0.2ms)
+Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/movies/show/1595]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:49:46) [GET]
+  Parameters: {"id"=>"1595"}
+  [4;35;1mMovie Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1595) [0m
+Rendering movies/show
+
+ActionView::TemplateError (wrong number of arguments (1 for 0)) on line #51 of app/views/movies/_trailers.html.erb:
+48:         autoExecuteList : {
+49:           cycleTime : GSvideoBar.CYCLE_TIME_MEDIUM,
+50:           cycleMode : GSvideoBar.CYCLE_MODE_LINEAR,
+51:           executeList : ["<%= @movie.name @movie.year%> trailer"]
+52:         }
+53:       }
+54: 
+
+    app/views/movies/_trailers.html.erb:51:in `name'
+    app/views/movies/_trailers.html.erb:51
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    haml (2.0.9) lib/haml/helpers.rb:57:in `non_haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    app/views/movies/show.html.haml:2:in `_run_haml_app47views47movies47show46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (164.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:50:12) [GET]
+  Parameters: {"id"=>"1595"}
+  [4;36;1mMovie Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1595) [0m
+Rendering movies/show
+Rendered movies/_trailers (2.3ms)
+Completed in 26ms (View: 11, DB: 3) | 200 OK [http://localhost/movies/show/1595]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:50:37) [GET]
+  Parameters: {"id"=>"1595"}
+  [4;35;1mMovie Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+  [4;36;1mMovie Load (0.1ms)[0m   [0;1mSELECT * FROM `movies` WHERE (`movies`.`id` = 1595) [0m
+Rendering movies/show
+
+ActionView::TemplateError (can't convert Fixnum into String) on line #51 of app/views/movies/_trailers.html.erb:
+48:         autoExecuteList : {
+49:           cycleTime : GSvideoBar.CYCLE_TIME_MEDIUM,
+50:           cycleMode : GSvideoBar.CYCLE_MODE_LINEAR,
+51:           executeList : ["<%=@movie.name + " " + @movie.year%>trailer"]
+52:         }
+53:       }
+54: 
+
+    app/views/movies/_trailers.html.erb:51:in `+'
+    app/views/movies/_trailers.html.erb:51
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    haml (2.0.9) lib/haml/helpers.rb:57:in `non_haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:12:in `render'
+    app/views/movies/show.html.haml:2:in `_run_haml_app47views47movies47show46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (83.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing MoviesController#show (for 127.0.0.1 at 2009-10-25 19:50:44) [GET]
+  Parameters: {"id"=>"1595"}
+  [4;36;1mMovie Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `movies`[0m
+  [4;35;1mMovie Load (0.1ms)[0m   [0mSELECT * FROM `movies` WHERE (`movies`.`id` = 1595) [0m
+Rendering movies/show
+Rendered movies/_trailers (2.2ms)
+Completed in 113ms (View: 12, DB: 1) | 200 OK [http://localhost/movies/show/1595]
