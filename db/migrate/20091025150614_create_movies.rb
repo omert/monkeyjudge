@@ -5,7 +5,8 @@ class CreateMovies < ActiveRecord::Migration
       t.integer :year
       t.integer :imdb_id
       t.float   :imdb_score
-      
+      t.float   :rt_score
+      t.float   :mc_score
       t.timestamps
     end
   end
