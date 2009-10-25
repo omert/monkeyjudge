@@ -2,3 +2,5 @@
 *.sw[o|p]
 log/*.log
 config/database.yml
+tmp/*
+public/stylesheets/compiled/*
