@@ -1,7 +1,11 @@
 class CreateMovies < ActiveRecord::Migration
   def self.up
     create_table :movies do |t|
-
+      t.string :name
+      t.integer :year
+      t.integer :imdb_id
+      t.float   :imdb_score
+      
       t.timestamps
     end
   end
