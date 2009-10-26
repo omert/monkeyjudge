@@ -13,10 +13,16 @@ class MoviesController < ApplicationController
   # GET /movies/1
   # GET /movies/1.xml
   def show
-    @movie = Movie.find(params[:id])
+    @movie = Movie.find_by_slug(params[:id])
+
+    if !@movie
+      @movie = Movie.search_imdb(params[:id])
+    end
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html {
+        redirect_to(movies_url()) if !@movie
+      } # show.html.erb
       format.xml  { render :xml => @movie }
     end
   end
