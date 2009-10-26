@@ -1,2 +1,4 @@
 %h1.title== #{@movie.name} (#{@movie.year})
+.poster
+  %img{:src => @movie.poster + "_SX400_SY400_.jpg" }
 = render :partial => "trailers"

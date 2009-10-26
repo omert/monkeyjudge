@@ -5,20 +5,30 @@ class Movie < ActiveRecord::Base
 
   def self.add(code)
     # TODO make sure the imdb code is valid
+  end
+
+  def self.scrape_imdb(code)
     imdb_url = "http://www.imdb.com/title/tt#{code}/"
     imdb_page = open(imdb_url).read 
     imdb_parsed = Nokogiri::HTML.parse(imdb_page)
     title = imdb_parsed.css('#tn15title h1').text.to_s[/.+\)/]
     year = title.slice!(/\(\d{4}\)/).delete("()")
     score = imdb_parsed.css('#tn15rating .meta b').text
-    create({
-      :name => title, :imdb_id => code,
-      :imdb_score => score, :year => year
-    })
+    poster = imdb_parsed.css("div .photo")[0].css("a img")[0].attribute("src").to_s
+    i = poster.index("._SX")
+    poster = poster.slice(0..i)
+    movie = Movie.find_by_imdb_iden(code) || Movie.new
+    movie.name = title
+    movie.imdb_iden = code
+    movie.imdb_score = score
+    movie.year = year
+    movie.poster = poster
+    movie.save
+    return movie
   end
 
   def self.search_imdb(title)
-
+    
   end
 
   def to_param

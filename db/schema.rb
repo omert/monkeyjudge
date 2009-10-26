@@ -9,18 +9,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091026012448) do
+ActiveRecord::Schema.define(:version => 20091026132616) do
 
   create_table "movies", :force => true do |t|
     t.string   "name"
     t.integer  "year"
-    t.integer  "imdb_id"
+    t.string   "imdb_iden"
     t.float    "imdb_score"
     t.float    "rt_score"
     t.float    "mc_score"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "slug"
+    t.string   "poster"
   end
 
 end

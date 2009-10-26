@@ -13,12 +13,12 @@ class MoviesController < ApplicationController
   # GET /movies/1
   # GET /movies/1.xml
   def show
-    @movie = Movie.find_by_slug(params[:id])
-
-    if !@movie
-      @movie = Movie.search_imdb(params[:id])
+    @movie = Movie.find_by_slug(params[:id]) || Movie.search_imdb(params[:id])
+    
+    if !@movie.nil? && @movie.poster.nil?
+      @movie = Movie.scrape_imdb(@movie.imdb_iden)
     end
-
+    
     respond_to do |format|
       format.html {
         redirect_to(movies_url()) if !@movie

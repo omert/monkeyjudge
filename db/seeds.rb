@@ -20,7 +20,7 @@ if Movie.count == 0
       imdb_id = link.attribute('href').to_s[/\d+/]
       imdb_score = row.css("font")[1].content
       year = row.css("font")[2].content[/\(\d+.+\)$/].delete("()")
-      Movie.create :name => link.content, :imdb_id => imdb_id, :imdb_score => imdb_score, :year => year
+      Movie.create :name => link.content, :imdb_iden => imdb_id, :imdb_score => imdb_score, :year => year
       
     end
   end
