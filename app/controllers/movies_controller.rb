@@ -82,4 +82,10 @@ class MoviesController < ApplicationController
       format.xml  { head :ok }
     end
   end
+
+  def add 
+    imdb_code = params[:id]
+    movie = Movie.add(imdb_code)
+    redirect_to(movies_url(movie))
+  end
 end

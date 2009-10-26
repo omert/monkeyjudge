@@ -5,10 +5,10 @@
   - @movies.each do |movie|
     %tr
       %td
-        = link_to 'Show', movie
-    %td
-      = link_to 'Edit', edit_movie_path(movie)
-    %td
-      = link_to 'Destroy', movie, :confirm => 'Are you sure?', :method => :delete
+        = link_to movie.name, movie
+      %td
+        = link_to 'Edit', edit_movie_path(movie)
+      %td
+        = link_to 'Destroy', movie, :confirm => 'Are you sure?', :method => :delete
 %br
 = link_to 'New movie', new_movie_path
