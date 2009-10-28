@@ -3,8 +3,7 @@
   %head
     %meta{ "http-equiv" => "content-type", :content => "text/html;charset=UTF-8" }
     %title
-      Movies:
-      = controller.action_name
+      = @page_title || "MonkeyJudge"
     = stylesheet_link_tag 'compiled/application'
   %body
     #container

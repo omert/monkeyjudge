@@ -19,6 +19,8 @@ class MoviesController < ApplicationController
       @movie = Movie.scrape_imdb(@movie.imdb_iden)
     end
     
+    @page_title = @movie.name + "(" + @movie.year.to_s + ") - MonkeyJudge"
+    
     respond_to do |format|
       format.html {
         redirect_to(movies_url()) if !@movie

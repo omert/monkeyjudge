@@ -7,6 +7,8 @@ class Movie < ActiveRecord::Base
     # TODO make sure the imdb code is valid
   end
 
+
+
   def self.scrape_imdb(code)
     imdb_url = "http://www.imdb.com/title/tt#{code}/"
     imdb_page = open(imdb_url).read 
@@ -28,7 +30,9 @@ class Movie < ActiveRecord::Base
   end
 
   def self.search_imdb(title)
-    
+    page = open("http://www.imdb.com/find?s=tt&q=" + CGI.escape(title)).read
+    doc = Nokogiri::HTML.parse(page)
+    imdb_iden = doc.css("table")[0].css("a")[0].attribute("href").to_s[/\d+/]
   end
 
   def to_param
