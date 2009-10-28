@@ -33,6 +33,7 @@ class Movie < ActiveRecord::Base
     page = open("http://www.imdb.com/find?s=tt&q=" + CGI.escape(title)).read
     doc = Nokogiri::HTML.parse(page)
     imdb_iden = doc.css("table")[0].css("a")[0].attribute("href").to_s[/\d+/]
+    scrape_imdb(imdb_iden)
   end
 
   def to_param
